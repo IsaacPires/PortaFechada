@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4B78EB;
+  color: white;
+}
+
+.container{ 
+  margin: 1em auto;  	
+	width: 350px;  	
+  text-align: center;
+  position: relative;  
+}
+
+.centraliza{
+  background-color: #F74543;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 40px ;
+}
+
+.return{
+  color: white;
+}
+
+footer{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+
+
